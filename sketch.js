@@ -49,7 +49,7 @@ function simetria(){
   let x = 0;
   let y = raio;
   let X, Y;
-  for (let r = 1; r <= raio ; r ++){
+  while(x <= y){
     pixel_octante(x, y);
     X = x * cos_theta - y * sin_theta;
     Y = y * cos_theta + x * sin_theta;
